@@ -53,8 +53,6 @@ public class LoginCtrl {
 
         loginService.saveUser(userDto);
         return "redirect:/register?success";
-
-
     }
 
     @GetMapping("/users")

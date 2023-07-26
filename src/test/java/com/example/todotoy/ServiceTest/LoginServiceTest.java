@@ -22,7 +22,6 @@ import static org.mockito.BDDMockito.given;
 
 @ExtendWith(MockitoExtension.class)
 public class LoginServiceTest {
-
     @InjectMocks
     private LoginServiceimpl loginServiceimpl;
     @Mock
